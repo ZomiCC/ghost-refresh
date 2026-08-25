@@ -1,6 +1,6 @@
 {
     "name":  "dsh-ghost-refresh",
-    "version":  "1.0.1",
+    "version":  "1.0.2",
     "description":  "Ghost Refresh (鬼影提神) — a friendly ghost drifts across the page to keep you awake. Adjustable speed / opacity / size / frequency, persisted per browser.",
     "type":  "module",
     "license":  "MIT",
