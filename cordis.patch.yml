@@ -1,0 +1,7 @@
+# Ghost Refresh (鬼影提神) bundle patch.
+# Inserts one row: the plugin mounts a no-op host half and a browser half
+# (declared via dsh.client in package.json) that renders the drifting ghost
+# overlay and the floating settings button through shell.overlay.
+- insert:
+    - id: dsh-ghost-refresh
+      name: dsh-ghost-refresh

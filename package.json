@@ -1,0 +1,23 @@
+{
+  "name": "dsh-ghost-refresh",
+  "version": "1.0.0",
+  "description": "Ghost Refresh (鬼影提神) — a friendly ghost drifts across the page to keep you awake. Adjustable speed / opacity / size / frequency, persisted per browser.",
+  "type": "module",
+  "license": "MIT",
+  "author": "zomicc",
+  "keywords": ["dsh", "deepseek-harness", "plugin", "ghost", "fun"],
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
