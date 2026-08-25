@@ -1,8 +1,8 @@
 {
   "$schema": "../schema/plugin.schema.json",
-  "id": "OWNER/ghost-refresh",
+  "id": "ZomiCC/ghost-refresh",
   "name": "ghost-refresh",
-  "repository": "https://github.com/OWNER/ghost-refresh",
+  "repository": "https://github.com/ZomiCC/ghost-refresh",
   "category": "fun",
   "description": {
     "en": "A friendly ghost drifts across the web UI at random intervals to keep you awake; speed, opacity, size and frequency are adjustable and persisted per browser.",
