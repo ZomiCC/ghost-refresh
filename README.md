@@ -23,6 +23,12 @@ dsh plugin --profile web add dsh-ghost-refresh
 
 然后重启 DSH。（desktop profile 把 `web` 换成 `desktop`。）
 
+npm 包尚未发布时，也可以直接从 GitHub 安装：
+
+```bash
+dsh plugin --profile web add github:ZomiCC/ghost-refresh
+```
+
 ## 卸载 / Uninstall
 
 ```bash
